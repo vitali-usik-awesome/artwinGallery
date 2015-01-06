@@ -35,5 +35,19 @@ header {width: 1200px; margin: 0 auto; background: #fff; overflow: hidden;}
 		.search li a:hover {text-decoration: none;}
 
 
+/* content */
+.content {}
+.sub_wrapper {width: 1200px; margin: 0 auto;}
+
+/* footer */
+footer {background-color: #4c4c4c; overflow: hidden;}
+	footer .contact {display: block; position: relative; float: left; width: 190px;}
+		footer .contact h5 {text-transform: uppercase; color: #aaa; font-weight: normal; font-size: 14px; margin-top: 25px;}
+		footer .contact h6 {color: #aaa; font-weight: normal; font-size: 14px; margin: 22px 0;}
+		footer .contact p {color: #fff;}
+		footer .contact p:last-child {margin-bottom: 36px;}
+	footer .social {display: block; position: relative; float: left; margin: 2px 0 0 45px;}
+	footer .copyright {display: block; position: relative; float: right;}
+
 
 
