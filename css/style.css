@@ -55,9 +55,9 @@ footer {background: #4c4c4c; overflow: hidden; margin: 0 auto;}
 		.social li:last-child {margin-right: 0;}
 		.social li a {display: block; position: relative; width: 33px; height: 33px;}
 		.social .in {background: url(../img/social_sprite.png) 0 0 no-repeat;}
-		.social .fb {background: url(../img/social_sprite.png) -35px 0 no-repeat;}
-		.social .yt {background: url(../img/social_sprite.png) -70px 0 no-repeat;}
-		.social .be {background: url(../img/social_sprite.png) -105px 0 no-repeat;}
+		.social .fb {background: url(../img/social_sprite.png) -38px 0 no-repeat;}
+		.social .yt {background: url(../img/social_sprite.png) -77px 0 no-repeat;}
+		.social .be {background: url(../img/social_sprite.png) -116px 0 no-repeat;}
 	footer .copyright {display: block; position: relative; float: right;}
 		.copyright h5 {text-transform: uppercase; color: #aaa; font-weight: normal; font-size: 14px; margin-top: 138px;}
 
