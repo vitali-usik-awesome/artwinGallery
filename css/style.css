@@ -82,7 +82,12 @@ footer {background: #4c4c4c; overflow: hidden; margin: 0 auto;}
 			.grid_item h6 {text-transform: uppercase; font-weight: normal; font-size: 25px; margin: 7px 0 31px 0;}
 			.grid_item a {color: #bebebe; text-decoration: none;}
 			.grid_item a:hover {text-decoration: underline;}
-		.grid_item:last-child {margin-right: 0;}	
+		.grid_item:last-child {margin-right: 0;}
+		.item_desc {display: block; position: relative; margin-bottom: 38px;}
+			.item_desc h5 {font-weight: normal; color: #666; font-size: 14px; margin-top: 8px;}
+			.item_desc h4 {font-weight: normal; margin-top: 11px;}
+			.item_desc h4 a {color: #666; font-size: 25px;}
+			.item_desc p {color: #666; font-size: 14px; margin-top: 10px;}	
 
 
 
