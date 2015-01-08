@@ -76,10 +76,10 @@ footer {background: #4c4c4c; overflow: hidden; margin: 0 auto;}
 		.list_item a {text-decoration: none; color: #666; font-size: 25px;}
 		.list_item a:hover {text-decoration: underline;}
 
-	.grid_row {display: block; position: relative; margin-top: 25px;}
+	.grid_row {display: block; position: relative; margin-top: 29px;}
 		.grid_item {display: block; position: relative; float: left; width: 288px; margin-right: 16px;}
-			.grid_item img {width: 288px; height: 204px;}
-			.grid_item h6 {text-transform: uppercase; font-weight: normal; font-size: 18px; margin: 10px 0 20px 0;}
+			.grid_item img {width: 288px; height: 206px;}
+			.grid_item h6 {text-transform: uppercase; font-weight: normal; font-size: 25px; margin: 7px 0 31px 0;}
 			.grid_item a {color: #bebebe; text-decoration: none;}
 			.grid_item a:hover {text-decoration: underline;}
 		.grid_item:last-child {margin-right: 0;}	
