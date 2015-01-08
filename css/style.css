@@ -1,8 +1,5 @@
 @charset "utf-8";
 
-/* fonts import */
-@import url();
-
 /* reset by medic */
 * {padding:0; margin:0;}
 img {border:0 none;}
@@ -12,10 +9,10 @@ ul {list-style: none;}
 .clr:after {display:none; position:relative; content:' '; color:transparent; font-size:0; line-height:0; clear:both;}
 
 html {height: 100%;}
-body {background: #fff; font-family: 'Arial', sans-serif; font-size: 14px; height: 100%;}
+body {background: #fff; font-family: 'Helvetica', sans-serif; font-size: 16px; height: 100%;}
 
 /* wrappers */
-.wrapper {min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -185px;}
+.wrapper {min-height: 100%; height: auto !important; margin: 0 auto -192px;}
 .sub_wrapper {width: 1200px; margin: 0 40px; overflow: hidden;}
 .footer_wrapper {width: 1280px; margin: 0 auto; background: #4c4c4c;}
 
@@ -23,19 +20,19 @@ body {background: #fff; font-family: 'Arial', sans-serif; font-size: 14px; heigh
 header {width: 1280px; margin: 0 auto; background: #fff;}
 	.header_wrapper {width: 1200px; margin: 0 40px; overflow: hidden;}
 	.sub_wrapper .logo {display: block; position: relative; float: left; background: #fff;}
-		.logo a {display: block; position: relative; margin: 12px 0 20px 0;}
-	.sub_wrapper nav {display: block; position: relative; float: left; height: 74px; margin: 12px 0 0 95px;}
+		.logo a {display: block; position: relative; margin: 15px 0 12px 2px;}
+	.sub_wrapper nav {display: block; position: relative; float: left; height: 74px; margin: 14px 0 0 75px;}
 		nav ul {height: 74px;}
 		nav ul li {display: inline-block;}
-		nav ul li a {display: inline-block; color: #000; text-decoration: none; padding: 0 23px; line-height: 74px; border-right: 1px solid transparent; border-left: 1px solid transparent;}
+		nav ul li a {display: inline-block; color: #4d4d4d; text-decoration: none; padding: 0 23px; line-height: 74px; border-right: 1px solid transparent; border-left: 1px solid transparent;}
 		nav ul li a:hover {text-decoration: none; border-right: 1px solid #bebebe; border-left: 1px solid #bebebe;}
-		nav ul li a .active {}
-	.sub_wrapper .search {display: block; position: relative; float: right; margin-top: 38px; overflow: hidden;}
-		.search input {display: block; position: relative; background: url(../img/search.png) 2px 50% no-repeat; padding-left: 20px; height: 19px; width: 86px; border: 1px solid #bebebe;}
-		.search ul {margin-top: 10px;}
-		.search li {display: inline-block; float: right; text-transform: uppercase; padding-left: 11px;}
-		.search li:hover {padding-left: 11px; background: url(../img/switch.png) 3px 50% no-repeat;}
-		.search li a {color: #000; text-decoration: none;}
+		nav ul li .active {text-decoration: none; border-right: 1px solid #bebebe; border-left: 1px solid #bebebe;}
+	.sub_wrapper .search {display: block; position: relative; float: right; margin-top: 41px; overflow: hidden;}
+		.search input {display: block; position: relative; background: url(../img/search.png) 2px 50% no-repeat; padding-left: 20px; height: 19px; width: 89px; border: 1px solid #bebebe;}
+		.search ul {margin-top: 4px;}
+		.search li {display: inline-block; float: right; text-transform: uppercase; padding-left: 14px;}
+		.search li:hover {padding-left: 14px; background: url(../img/switch.png) 6px 50% no-repeat;}
+		.search li a {color: #000; text-decoration: none; font-size: 10px; font-weight: lighter;}
 		.search li a:hover {text-decoration: none;}
 
 
@@ -46,23 +43,23 @@ header {width: 1280px; margin: 0 auto; background: #fff;}
 
 
 /* footer */
-footer, .push {height: 185px; min-width: 1280px;}
+footer, .push {height: 192px; min-width: 1280px;}
 footer {background: #4c4c4c; overflow: hidden; margin: 0 auto;}
 	footer .contact {display: block; position: relative; float: left; width: 190px;}
-		footer .contact h5 {text-transform: uppercase; color: #aaa; font-weight: normal; font-size: 14px; margin-top: 25px;}
-		footer .contact h6 {color: #aaa; font-weight: normal; font-size: 14px; margin: 22px 0;}
-		footer .contact p {color: #fff;}
-		footer .contact p:last-child {margin-bottom: 36px;}
-	footer .social {display: block; position: relative; float: left; margin: 118px 0 0 45px;}
-		.social li {display: inline-block; margin-right: 6px;}
+		footer .contact h5 {text-transform: uppercase; color: #ababab; font-weight: normal; font-size: 16px; margin: 25px 0 0 4px;}
+		footer .contact h6 {color: #ababab; font-weight: normal; font-size: 14px; margin: 19px 0 0 4px;}
+		footer .contact p {color: #fff; margin: 23px 0 0 4px;}
+		footer .contact p:last-child {margin: 0 0 36px 4px;}
+	footer .social {display: block; position: relative; float: left; margin: 118px 0 0 41px;}
+		.social li {display: inline-block; margin-right: 1px;}
 		.social li:last-child {margin-right: 0;}
 		.social li a {display: block; position: relative; width: 33px; height: 33px;}
 		.social .in {background: url(../img/social_sprite.png) 0 0 no-repeat;}
 		.social .fb {background: url(../img/social_sprite.png) -38px 0 no-repeat;}
 		.social .yt {background: url(../img/social_sprite.png) -77px 0 no-repeat;}
 		.social .be {background: url(../img/social_sprite.png) -116px 0 no-repeat;}
-	footer .copyright {display: block; position: relative; float: right;}
-		.copyright h5 {text-transform: uppercase; color: #aaa; font-weight: normal; font-size: 14px; margin-top: 138px;}
+	footer .copyright {display: block; position: relative; float: right; margin-right: 170px;}
+		.copyright h5 {text-transform: uppercase; color: #ababab; font-weight: normal; font-size: 16px; margin-top: 138px;}
 
 /* artists_wrapper */
 .artists_nav {width: 100%; height: 50px; border-top: 1px solid #bebebe; border-bottom: 1px solid #bebebe;}
