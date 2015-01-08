@@ -14,20 +14,23 @@ ul {list-style: none;}
 html {height: 100%;}
 body {background: #fff; font-family: 'Arial', sans-serif; font-size: 14px; height: 100%;}
 
-/* wrapper */
+/* wrappers */
 .wrapper {min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -185px;}
+.sub_wrapper {width: 1200px; margin: 0 40px; overflow: hidden;}
+.footer_wrapper {width: 1280px; margin: 0 auto; background: #4c4c4c;}
 
 /* header */
-header {width: 1200px; margin: 0 auto; background: #fff; overflow: hidden;}
-	header .logo {display: block; position: relative; float: left; background: #fff;}
+header {width: 1280px; margin: 0 auto; background: #fff;}
+	.header_wrapper {width: 1200px; margin: 0 40px; overflow: hidden;}
+	.sub_wrapper .logo {display: block; position: relative; float: left; background: #fff;}
 		.logo a {display: block; position: relative; margin: 12px 0 20px 0;}
-	header nav {display: block; position: relative; float: left; height: 74px; margin: 12px 0 0 95px;}
+	.sub_wrapper nav {display: block; position: relative; float: left; height: 74px; margin: 12px 0 0 95px;}
 		nav ul {height: 74px;}
 		nav ul li {display: inline-block;}
 		nav ul li a {display: inline-block; color: #000; text-decoration: none; padding: 0 23px; line-height: 74px; border-right: 1px solid transparent; border-left: 1px solid transparent;}
 		nav ul li a:hover {text-decoration: none; border-right: 1px solid #bebebe; border-left: 1px solid #bebebe;}
 		nav ul li a .active {}
-	header .search {display: block; position: relative; float: right; margin-top: 38px; overflow: hidden;}
+	.sub_wrapper .search {display: block; position: relative; float: right; margin-top: 38px; overflow: hidden;}
 		.search input {display: block; position: relative; background: url(../img/search.png) 2px 50% no-repeat; padding-left: 20px; height: 19px; width: 86px; border: 1px solid #bebebe;}
 		.search ul {margin-top: 10px;}
 		.search li {display: inline-block; float: right; text-transform: uppercase; padding-left: 11px;}
@@ -37,13 +40,13 @@ header {width: 1200px; margin: 0 auto; background: #fff; overflow: hidden;}
 
 
 /* content */
-.content {width: 1200px; overflow: hidden; margin: 0 auto;}
+.content {width: 1280px; margin: 0 auto;}
 
-/* sub wrapper */
-.sub_wrapper {width: 1200px; margin: 0 auto;}
+
+
 
 /* footer */
-footer, .push {height: 185px;}
+footer, .push {height: 185px; min-width: 1280px;}
 footer {background: #4c4c4c; overflow: hidden; margin: 0 auto;}
 	footer .contact {display: block; position: relative; float: left; width: 190px;}
 		footer .contact h5 {text-transform: uppercase; color: #aaa; font-weight: normal; font-size: 14px; margin-top: 25px;}
