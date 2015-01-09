@@ -40,7 +40,9 @@ header {width: 1280px; margin: 0 auto; background: #fff;}
 .content {width: 1280px; margin: 0 auto;}
 	.content h2 {font-weight: normal; font-size: 25px; color: #666; margin: 23px 0 15px 0;}
 
-
+/* home_title */
+.home_title {min-height: 410px; min-width: 1280px; background: url(../img/home.png); background-size: cover; -moz-background-size: cover;  /* Firefox 3.6 */ background-position: center;  /* Internet Explorer 7/8 */}
+.home_wrapper {width: 1200px; margin: 0 auto;}
 
 
 /* footer */
@@ -103,8 +105,7 @@ footer {background: #4c4c4c; overflow: hidden; margin: 0 auto;}
 	.exh_right {display: block; position: relative; float: right; width: 730px; margin-bottom: 60px;}
 		.exh_right img {margin-bottom: 16px;}
 
-/* home_title */
-.home_title {width: 100%; min-height: 410px; min-width: 1200px; background: url(../img/home.png) 0 0 no-repeat;}
+
 
 
 
