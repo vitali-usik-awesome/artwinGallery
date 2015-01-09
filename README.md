@@ -10,8 +10,8 @@ Pages:
 04. Artists grid page        (+)
 05. Exhibiton page           (+)
 06. Artists list page        (+)
-07. Exhibiton  personal page
+07. Exhibiton  personal page (+)
 08. About page
 09. Contact page
 
-03/09 (30%)
+04/09 (40%)
