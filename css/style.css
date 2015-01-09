@@ -86,6 +86,7 @@ footer {background: #4c4c4c; overflow: hidden; margin: 0 auto;}
 
 	.grid_row {display: block; position: relative; margin-top: 29px;}
 		.grid_item {display: block; position: relative; float: left; width: 288px; margin-right: 16px;}
+		.home_item {margin-right: 1px;} /* for home page only for margins */
 			.grid_item img {width: 288px; height: 206px;}
 			.grid_item h6 {text-transform: uppercase; font-weight: normal; font-size: 25px; margin: 7px 0 31px 0;}
 			.grid_item a {color: #bebebe; text-decoration: none;}
