@@ -38,6 +38,7 @@ header {width: 1280px; margin: 0 auto; background: #fff;}
 
 /* content */
 .content {width: 1280px; margin: 0 auto;}
+	.content h2 {font-weight: normal; font-size: 25px; color: #666; margin: 23px 0 15px 0;}
 
 
 
@@ -92,8 +93,15 @@ footer {background: #4c4c4c; overflow: hidden; margin: 0 auto;}
 
 	.exh_left {display: block; position: relative; float: left; width: 415px;}
 		.exh_left .line {border-top: 1px solid #666; width: 390px;}
+		.exh_left p {font-size: 14px; line-height: 17px; color: #808080;}
+		.exh_left ul {margin: 48px 0;}
+		.exh_left li {font-size: 16px; color: #666;}
+		.exh_left h4 {font-weight: lighter; font-size: 16px; text-transform: uppercase; color: 808080; margin-top: 14px;}
+		.exh_left a {font-weight: lighter; font-size: 16px; text-transform: uppercase; color: #000; text-decoration: none;}
+		.exh_left a:hover {text-decoration: underline;}
 
-	.exh_right {display: block; position: relative; float: right; width: 730px;}
+	.exh_right {display: block; position: relative; float: right; width: 730px; margin-bottom: 60px;}
+		.exh_right img {margin-bottom: 16px;}
 
 
 
