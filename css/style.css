@@ -68,6 +68,7 @@ footer {background: #4c4c4c; overflow: hidden; margin: 0 auto;}
 	.artists_nav ul li a {display: inline-block; color: #bebebe; text-decoration: none; padding-right: 30px; line-height: 51px; text-transform: uppercase;}
 	.artists_nav ul li a:hover {text-decoration: none; color: #000;}
 	.artists_nav ul li .active {color: #000;}
+	.artists_nav h4 {font-weight: lighter; font-size: 16px; color: #000; line-height: 51px; margin-left: 3px;}
 
 .artists_wrapper {width: 100%;}
 	.list_column {display: block; position: relative; float: left; width: 220px; margin-right: 200px;}
@@ -87,7 +88,12 @@ footer {background: #4c4c4c; overflow: hidden; margin: 0 auto;}
 			.item_desc h5 {font-weight: normal; color: #666; font-size: 14px; margin-top: 8px;}
 			.item_desc h4 {font-weight: normal; margin-top: 11px;}
 			.item_desc h4 a {color: #666; font-size: 25px;}
-			.item_desc p {color: #666; font-size: 14px; margin-top: 10px;}	
+			.item_desc p {color: #666; font-size: 14px; margin-top: 10px;}
+
+	.exh_left {display: block; position: relative; float: left; width: 415px;}
+		.exh_left .line {border-top: 1px solid #666; width: 390px;}
+
+	.exh_right {display: block; position: relative; float: right; width: 730px;}
 
 
 
