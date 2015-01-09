@@ -103,6 +103,9 @@ footer {background: #4c4c4c; overflow: hidden; margin: 0 auto;}
 	.exh_right {display: block; position: relative; float: right; width: 730px; margin-bottom: 60px;}
 		.exh_right img {margin-bottom: 16px;}
 
+/* home_title */
+.home_title {width: 100%; min-height: 390px; min-width: 1280px; background: url(../img/home.png) 0 0 no-repeat;}
+
 
 
 
