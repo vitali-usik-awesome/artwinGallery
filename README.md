@@ -5,7 +5,7 @@ test ui for fl project
 
 Pages:
 01. Home page                (+)
-02. Artists 1 page
+02. Artists Gallery          (+)
 03. Artists personal page
 04. Artists grid page        (+)
 05. Exhibiton page           (+)
