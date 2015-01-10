@@ -16,6 +16,8 @@ body {background: #fff; font-family: 'Helvetica', sans-serif; font-size: 16px; h
 .sub_wrapper {width: 1200px; margin: 0 40px; overflow: hidden;}
 .footer_wrapper {width: 1280px; margin: 0 auto; background: #4c4c4c;}
 .adaptive_wrapper {width: 1200px; margin: 0 auto;}
+	.adaptive_wrapper h2 {color: #fff; font-size: 57px; font-weight: lighter; padding-top: 225px;}
+	.adaptive_wrapper h3 {color: #fff; font-size: 22px; font-weight: lighter; padding-top: 8px;}
 .adaptive_block {min-width: 1280px;}
 .adaptive_home {min-height: 410px; background: url(../img/home.png); background-size: cover; -moz-background-size: cover;  /* Firefox 3.6 */ background-position: center;  /* Internet Explorer 7/8 */}
 .adaptive_contact {min-height: 380px; background: url(../media/map.jpeg); background-size: cover; -moz-background-size: cover;  /* Firefox 3.6 */ background-position: center;  /* Internet Explorer 7/8 */}
