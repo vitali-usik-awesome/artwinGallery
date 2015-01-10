@@ -14,4 +14,4 @@ Pages:
 08. About page
 09. Contact page             (+)
 
-06/09 (60%)
+07/09 (70%)
