@@ -50,7 +50,8 @@ header {width: 1280px; margin: 0 auto; background: #fff;}
 /* content */
 .content {width: 1280px; margin: 0 auto;}
 	.content h2 {font-weight: normal; font-size: 25px; color: #666; margin: 23px 0 15px 0;}
-	.content h3 {font-weight: normal; font-size: 22px; color: #333; margin-top: 33px; text-transform: uppercase;}
+	.content h3 {font-weight: normal; font-size: 22px; color: #333; text-transform: uppercase;}
+	.content .contact_header {margin-top: 33px;}
 
 /* footer */
 footer, .push {height: 192px; min-width: 1280px;}
@@ -129,7 +130,7 @@ footer {background: #4c4c4c; overflow: hidden; margin: 0 auto;}
 
 	.desc_right {display: block; position: relative; float: right; width: 912px;}
 		.slider_wrapper img {width: 912px; height: auto;}
-	.desc_right h4 {font-weight: normal; font-size: 16px; color: #808080; margin-top: 20px;}
+	.desc_right h4 {font-weight: normal; font-size: 16px; color: #000; margin-top: 20px;}
 	.desc_right p {font-size: 14px; color: #808080;}
 
 .artist_additional {display: block; position: relative; overflow: hidden; margin-bottom: 47px;}
@@ -185,7 +186,7 @@ footer {background: #4c4c4c; overflow: hidden; margin: 0 auto;}
 	.nav_right {display: block; position: absolute; top: 50%; right: 20px; cursor: pointer; background: url(../img/nav_right.png) 0 0 no-repeat; width: 32px; height: 86px;}
 
 .gallery {width: 1200px;}
-	.gallery h4 {font-weight: normal; font-size: 16px; color: #808080; margin-top: 20px;}
+	.gallery h4 {font-weight: normal; font-size: 16px; color: #000; margin-top: 20px;}
 	.gallery p {font-size: 14px; color: #808080;}
 	.gallery ul {margin: 86px 0 160px 0;}
 	.gallery li {margin-right: 4px; display: inline-block;}
