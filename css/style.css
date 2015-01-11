@@ -124,7 +124,7 @@ footer {background: #4c4c4c; overflow: hidden; margin: 0 auto;}
 
 	.desc_right {display: block; position: relative; float: right; width: 912px;}
 		.slider_wrapper img {width: 912px; height: auto;}
-	.desc_right h4 {font-weight: normal; font-size: 16px; color: 16px; margin-top: 20px;}
+	.desc_right h4 {font-weight: normal; font-size: 16px; color: #808080; margin-top: 20px;}
 	.desc_right p {font-size: 14px; color: #808080;}
 
 .artist_additional {display: block; position: relative; overflow: hidden; margin-bottom: 47px;}
@@ -151,7 +151,7 @@ footer {background: #4c4c4c; overflow: hidden; margin: 0 auto;}
 		.exh_left p {font-size: 14px; line-height: 17px; color: #808080;}
 		.exh_left ul {margin: 48px 0;}
 		.exh_left li {font-size: 16px; color: #666;}
-		.exh_left h4 {font-weight: lighter; font-size: 16px; text-transform: uppercase; color: 808080; margin-top: 14px;}
+		.exh_left h4 {font-weight: lighter; font-size: 16px; text-transform: uppercase; color: #808080; margin-top: 14px;}
 		.exh_left a {font-weight: lighter; font-size: 16px; text-transform: uppercase; color: #000; text-decoration: none;}
 		.exh_left a:hover {text-decoration: underline;}
 
@@ -180,7 +180,7 @@ footer {background: #4c4c4c; overflow: hidden; margin: 0 auto;}
 	.nav_right {display: block; position: absolute; top: 50%; right: 20px; cursor: pointer; background: url(../img/nav_right.png) 0 0 no-repeat; width: 32px; height: 86px;}
 
 .gallery {width: 1200px;}
-	.gallery h4 {font-weight: normal; font-size: 16px; color: 16px; margin-top: 20px;}
+	.gallery h4 {font-weight: normal; font-size: 16px; color: #808080; margin-top: 20px;}
 	.gallery p {font-size: 14px; color: #808080;}
 	.gallery ul {margin: 86px 0 160px 0;}
 	.gallery li {margin-right: 4px; display: inline-block;}
