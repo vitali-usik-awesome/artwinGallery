@@ -32,12 +32,18 @@ header {width: 1280px; margin: 0 auto; background: #fff;}
 	.header_wrapper {width: 1200px; margin: 0 40px; overflow: hidden;}
 	.sub_wrapper .logo {display: block; position: relative; float: left; background: #fff;}
 		.logo a {display: block; position: relative; margin: 15px 0 12px 2px;}
-	.sub_wrapper nav {display: block; position: relative; float: left; height: 74px; margin: 14px 0 0 75px;}
-		nav ul {height: 74px;}
-		nav ul li {display: inline-block;}
-		nav ul li a {display: inline-block; color: #4d4d4d; text-decoration: none; padding: 0 23px; line-height: 74px; border-right: 1px solid transparent; border-left: 1px solid transparent;}
+	.sub_wrapper nav {display: block; position: relative; float: left; height: 74px; margin: 14px 0 0 55px; overflow: hidden;}
+		nav ul {height: 74px; max-width: 650px;}
+		nav ul li {display: inline;}
+		nav ul li a {display: inline-block; color: #4d4d4d; text-decoration: none; padding: 0 15px; line-height: 74px; border-right: 1px solid transparent; border-left: 1px solid transparent;}
 		nav ul li a:hover {text-decoration: none; border-right: 1px solid #bebebe; border-left: 1px solid #bebebe;}
 		nav ul li .active {text-decoration: none; border-right: 1px solid #bebebe; border-left: 1px solid #bebebe;}
+	
+
+
+
+
+
 	.sub_wrapper .search {display: block; position: relative; float: right; margin-top: 41px; overflow: hidden;}
 		.search input {display: block; position: relative; background: url(../img/search.png) 2px 50% no-repeat; padding-left: 20px; height: 19px; width: 89px; border: 1px solid #bebebe;}
 		.search ul {margin-top: 4px;}
