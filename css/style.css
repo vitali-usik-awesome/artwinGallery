@@ -108,27 +108,6 @@ footer {background: #4c4c4c; overflow: hidden; margin: 0 auto;}
 			.item_desc h4 a {color: #666; font-size: 25px;}
 			.item_desc p {color: #666; font-size: 14px; margin-top: 10px;}
 
-	.exh_row {display: block; position: relative; margin: 0 auto;}
-	.exh_wrapper2 {display: block; position: relative; float: left; margin-bottom: 50px;}
-		.exh_wrapper2 h3 {font-weight: lighter; font-size: 18px; color: #666; text-transform: none;}
-		.exh_wrapper_left {display: block; position: relative; float: left; border: 1px solid #666; border-left: 0 none; margin-bottom: 10px;}
-		.exh_wrapper_center {display: block; position: relative; float: left; border-top: 1px solid #666; border-bottom: 1px solid #666; background: url(../img/switch.png) 0 100% no-repeat; margin-bottom: 10px;}
-		.exh_wrapper_right {display: block; position: relative; float: left; border: 1px solid #666; border-right: 0 none; margin-bottom: 10px;}
-		.exh_row .grid_item {width: 288px; margin: 8px;}
-			.exh_row .grid_item h3 {margin: 0 0 5px 0; font-weight: lighter; font-size: 16px; color: #666;}
-				.left {text-align: right;}
-				.center {text-align: center;}
-				.right {text-align: left;}
-			.exh_row .grid_item img {width: 288px; height: 206px;}
-			.exh_row .grid_item h6 {text-transform: uppercase; font-weight: normal; font-size: 25px; margin: 7px 0 31px 0;}
-			.exh_row .grid_item a {color: #bebebe; text-decoration: none;}
-			.exh_row .grid_item a:hover {text-decoration: underline;}
-		.exh_row .item_desc {display: block; position: relative; margin-bottom: 38px;}
-			.exh_row .item_desc h5 {font-weight: normal; font-size: 16px; margin-top: 2px;}
-			.exh_row .item_desc h4 {font-weight: normal; margin-top: 11px;}
-			.exh_row .item_desc h4 a {color: #666; font-size: 25px;}
-			.exh_row .item_desc p {color: #666; font-size: 14px; margin-top: 2px;}
-
 .artist_desc {display: block; position: relative; overflow: hidden; margin-bottom: 20px;}
 	.desc_left {display: block; position: relative; float: left; width: 260px;}
 	.desc_left h1 {font-weight: lighter; color: #4D4D4D; font-size: 57px; border-top: 1px solid #4D4D4D; border-bottom: 1px solid #4D4D4D;}
@@ -237,19 +216,28 @@ footer {background: #4c4c4c; overflow: hidden; margin: 0 auto;}
 
 
 .exhibition_wrapper {display: block; position: relative; overflow: hidden; width: 1200px; margin: 0 auto;}
-
-.exhibition {display: block; position: relative; width: 999999px;}
-	.period {display: block; position: relative; float: left; /*overflow: hidden;*/ border: 1px solid red;}
-	.period_center {border-left: 0 none; border-right: 0 none;}
-		.item {display: block; position: relative; float: left; width: 288px; margin: 10px;}
+	.exhibition_wrapper h4 {font-weight: lighter; font-size: 16px; color: #4d4d4d; text-transform: uppercase;}
+	.exhibition_wrapper .timeline {margin-bottom: -36px; line-height: 40px; color: #000;}
+.exhibition {display: block; position: relative; width: 999999px; left: -170px; min-height: 470px;}
+	.period {display: block; position: relative; float: left; border: 1px solid #666;}
+		.period h6 {font-weight: lighter; font-size: 16px; color: #666; text-transform: uppercase;}
+			.left {text-align: right; margin: 10px 20px 0 0;}
+			.center {text-align: center; margin: 10px 20px 0 0;}
+			.right {text-align: left; margin: 10px 0 0 20px;}
+	.period_center {border-left: 0 none; border-right: 0 none; z-index: 1;}
+				.bdg {display: block; position: absolute; bottom: -2.5px; left: -3px;}
+				.bdg2 {display: block; position: absolute; bottom: -2.5px; right: -3px;}
+	.item_wrapper {display: block; position: relative;}
+		.item {display: block; position: relative; float: left; width: 288px; margin: 10px 20px 0 20px;}
 			.item img {width: 288px; height: 206px;}
 			.item h6 {text-transform: uppercase; font-weight: normal; font-size: 25px; margin: 7px 0 31px 0;}
 			.item a {color: #bebebe; text-decoration: none;}
 			.item a:hover {text-decoration: underline;}
-		.item_desc {display: block; position: relative; margin-bottom: 38px;}
-			.item_desc h5 {font-weight: normal; color: #666; font-size: 14px; margin-top: 8px;}
+		.item_desc {display: block; position: relative; margin-bottom: 18px;}
+			.item_desc h5 {font-weight: normal; color: #666; font-size: 16px; margin-top: 8px;}
 			.item_desc h4 {font-weight: normal; margin-top: 11px;}
 			.item_desc h4 a {color: #666; font-size: 25px;}
 			.item_desc p {color: #666; font-size: 14px; margin-top: 0;}
+	.item_wrapper span {display: block; position: absolute; bottom: -40px; width: 288px; text-align: center; font-size: 18px; color: #666; font-weight: lighter;}
 
 
