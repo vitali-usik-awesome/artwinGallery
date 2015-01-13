@@ -175,10 +175,32 @@ footer {background: #4c4c4c; overflow: hidden; margin: 0 auto;}
 	.contact_right {display: block; position: relative; float: right; width: 343px; padding-bottom: 80px;}
 		.contact_right h4 {font-weight: normal; font-size: 22px; color: #333; margin: 10px 0 18px 0; text-transform: uppercase;}
 		.contact_right span {display: block; position: relative; margin-bottom: 8px; color: #4d4d4d;}
-		.contact_right span input {height: 17px; width: 245px; line-height: 15px; font-size: 14px; padding-left: 3px;}
-		.contact_right textarea {line-height: 15px; font-size: 14px; padding-left: 3px; width: 247px; resize: none;}
-		.contact_right p {margin-top: -4px;}
-		.contact_right p input {height: 18px; width: 252px; color: #fff; background: #808080; font-size: 16px; line-height: 16px; border: 1px solid #929292; border-top: 0 none;}
+		.contact_right span input {height: 17px; width: 245px; line-height: 17px; font-size: 14px; padding-left: 3px; border: 1px solid #4d4d4d;
+									 -webkit-appearance: none;
+									   box-shadow: none;
+									   -webkit-box-shadow: none;
+									   -webkit-border-radius: 0px;
+									   -moz-border-radius: 0px;
+									   border-radius: 0px;
+									   -webkit-appearance: none;
+									}
+		.contact_right textarea {line-height: 17px; font-size: 14px; padding-left: 3px; width: 247px; resize: none; font-family: 'Helvetica', sans-serif; border: 1px solid #4d4d4d; overflow: auto;
+									 -webkit-appearance: none;
+									   box-shadow: none;
+									   -webkit-box-shadow: none;
+									   -webkit-border-radius: 0px;
+									   -moz-border-radius: 0px;
+									   border-radius: 0px;
+									   -webkit-appearance: none;}
+		.contact_right p {margin-top: -6px;}
+		.contact_right p input {height: 18px; width: 252px; color: #fff; background: #808080; font-size: 16px; line-height: 16px; border: 1px solid #929292; border-top: 0 none; cursor: pointer;
+										 -webkit-appearance: none;
+									   box-shadow: none;
+									   -webkit-box-shadow: none;
+									   -webkit-border-radius: 0px;
+									   -moz-border-radius: 0px;
+									   border-radius: 0px;
+									   -webkit-appearance: none;}
 
 .gallery_big {width: 1200px;}
 	.gallery_big img {width: 1200px; height: auto;}
