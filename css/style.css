@@ -236,24 +236,20 @@ footer {background: #4c4c4c; overflow: hidden; margin: 0 auto;}
 			.about_right .press a:hover {text-decoration: underline;}
 
 
+.exhibition_wrapper {display: block; position: relative; overflow: hidden; width: 1200px; margin: 0 auto;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.exhibition {display: block; position: relative; width: 999999px;}
+	.period {display: block; position: relative; float: left; /*overflow: hidden;*/ border: 1px solid red;}
+	.period_center {border-left: 0 none; border-right: 0 none;}
+		.item {display: block; position: relative; float: left; width: 288px; margin: 10px;}
+			.item img {width: 288px; height: 206px;}
+			.item h6 {text-transform: uppercase; font-weight: normal; font-size: 25px; margin: 7px 0 31px 0;}
+			.item a {color: #bebebe; text-decoration: none;}
+			.item a:hover {text-decoration: underline;}
+		.item_desc {display: block; position: relative; margin-bottom: 38px;}
+			.item_desc h5 {font-weight: normal; color: #666; font-size: 14px; margin-top: 8px;}
+			.item_desc h4 {font-weight: normal; margin-top: 11px;}
+			.item_desc h4 a {color: #666; font-size: 25px;}
+			.item_desc p {color: #666; font-size: 14px; margin-top: 0;}
 
 
