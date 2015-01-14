@@ -20,17 +20,17 @@ body {background: #fff; font-family: 'Helvetica', sans-serif; font-size: 16px; h
 
 /* wrappers */
 .wrapper {min-height: 100%; height: auto !important; margin: 0 auto -192px;}
-.sub_wrapper {width: 1200px; margin: 0 40px; overflow: hidden;}
-.footer_wrapper {width: 1280px; margin: 0 auto; background: #4c4c4c;}
+.sub_wrapper {width: 1200px; margin: 0 32px; overflow: hidden;}
+.footer_wrapper {width: 1262px; margin: 0 auto; background: #4c4c4c;}
 .adaptive_wrapper {width: 1200px; margin: 0 auto;}
 	.adaptive_wrapper h2 {color: #fff; font-size: 57px; font-weight: lighter; padding-top: 225px;}
 	.adaptive_wrapper h3 {color: #fff; font-size: 22px; font-weight: lighter; padding-top: 8px;}
-.adaptive_block {min-width: 1280px;}
+.adaptive_block {min-width: 1262px;}
 .adaptive_home {min-height: 410px; background: url(../img/home.png); background-size: cover; -moz-background-size: cover;  /* Firefox 3.6 */ background-position: center;  /* Internet Explorer 7/8 */}
 .adaptive_contact {margin-top: 175px; min-height: 380px; background: url(../media/map.jpeg); background-size: cover; -moz-background-size: cover;  /* Firefox 3.6 */ background-position: center;  /* Internet Explorer 7/8 */}
 
 /* header */
-header {width: 1280px; margin: 0 auto; background: #fff;}
+header {width: 1262px; margin: 0 auto; background: #fff;}
 	.header_wrapper {width: 1200px; margin: 0 40px; overflow: hidden;}
 	.sub_wrapper .logo {display: block; position: relative; float: left; background: #fff;}
 		.logo a {display: block; position: relative; margin: 15px 0 12px 2px;}
@@ -59,13 +59,13 @@ header {width: 1280px; margin: 0 auto; background: #fff;}
 
 
 /* content */
-.content {width: 1280px; margin: 0 auto;}
+.content {width: 1262px; margin: 0 auto;}
 	.content h2 {font-weight: normal; font-size: 25px; color: #666; margin: 23px 0 15px 0;}
 	.content h3 {font-weight: normal; font-size: 22px; color: #333; text-transform: uppercase;}
 	.content .contact_header {margin-top: 33px;}
 
 /* footer */
-footer, .push {height: 192px; min-width: 1280px;}
+footer, .push {height: 192px; min-width: 1262px;}
 footer {background: #4c4c4c; overflow: hidden; margin: 0 auto;}
 	footer .contact {display: block; position: relative; float: left; width: 190px;}
 		footer .contact h5 {text-transform: uppercase; color: #ababab; font-weight: lighter; font-size: 16px; margin: 25px 0 0 4px;}
@@ -164,7 +164,7 @@ footer {background: #4c4c4c; overflow: hidden; margin: 0 auto;}
 		.contact_left h5 a:hover {text-decoration: underline;}
 
 	.contact_right {display: block; position: relative; float: right; width: 343px; padding-bottom: 80px; margin-right: 16px;}
-		.contact_right h4 {font-weight: normal; font-size: 22px; color: #333; margin: 3px 0 21px 0; text-transform: uppercase;}
+		.contact_right h4 {font-weight: lighter; font-size: 22px; color: #333; margin: 3px 0 21px 0; text-transform: uppercase;}
 		.contact_right span {display: block; position: relative; margin-bottom: 8px; color: #4d4d4d;}
 		.contact_right span input {height: 19px; width: 245px; line-height: 19px; font-size: 16px; color: #4d4d4d; padding-left: 3px; border: 1px solid #bebebe;
 									 -webkit-appearance: none;
