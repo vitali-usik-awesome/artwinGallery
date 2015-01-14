@@ -93,48 +93,49 @@ footer {background: #4c4c4c; overflow: hidden; margin: 0 auto;}
 	.artists_nav h4 {font-weight: lighter; font-size: 16px; color: #000; line-height: 51px; margin-left: 3px;}
 
 .artists_wrapper {width: 100%;}
-	.list_column {display: block; position: relative; float: left; width: 220px; margin-right: 200px;}
+	.list_column {display: block; position: relative; float: left; width: 220px; margin: 0 200px 200px 0;}
 		.list_item {width: 100%; margin-bottom: 40px;}
 		.list_item h5 {text-transform: uppercase; color: #ff0000; font-weight: normal; font-size: 25px; margin-top: 23px;}
 		.list_item a {text-decoration: none; color: #666; font-size: 25px;}
 		.list_item a:hover {text-decoration: underline;}
 
-	.grid_row {display: block; position: relative; margin-top: 29px;}
-		.grid_item {display: block; position: relative; float: left; width: 288px; margin-right: 16px;}
+		.grid_item {display: block; position: relative; float: left; width: 288px; margin: 29px 16px -28px 0;}
 		.home_item {margin-right: 1px;} /* for home page only for margins */
 			.grid_item img {width: 288px; height: 206px;}
-			.grid_item h6 {text-transform: uppercase; font-weight: normal; font-size: 25px; margin: 7px 0 31px 0;}
+			.grid_item h6 {font-weight: normal; font-size: 25px; margin: 7px 0 31px 0;}
 			.grid_item a {color: #bebebe; text-decoration: none;}
 			.grid_item a:hover {text-decoration: underline;}
-		.grid_item:last-child {margin-right: 0;}
-		.item_desc {display: block; position: relative; margin-bottom: 38px;}
-			.item_desc h5 {font-weight: normal; color: #666; font-size: 14px; margin-top: 8px;}
-			.item_desc h4 {font-weight: normal; margin-top: 11px;}
-			.item_desc h4 a {color: #666; font-size: 25px;}
-			.item_desc p {color: #666; font-size: 14px; margin-top: 10px;}
+		.grid_item:last-child {margin-bottom: 106px;}
+		.grid_item_fourthchild {margin-right: 0;}
+		.item_desc_ex {display: block; position: relative; margin-bottom: 38px;}
+			.item_desc_ex h5 {font-weight: normal; color: #666; font-size: 14px; margin-top: 7px;}
+			.item_desc_ex h4 {font-weight: normal; margin-top: 11px;}
+			.item_desc_ex h4 a {color: #666; font-size: 25px;}
+			.item_desc_ex p {color: #666; font-size: 14px; margin-top: 10px;}
 
-.artist_desc {display: block; position: relative; overflow: hidden; margin-bottom: 20px;}
+.artist_desc {display: block; position: relative; overflow: hidden; margin-bottom: 24px;}
 	.desc_left {display: block; position: relative; float: left; width: 260px;}
-	.desc_left h1 {font-weight: lighter; color: #4D4D4D; font-size: 57px; border-top: 1px solid #4D4D4D; border-bottom: 1px solid #4D4D4D;}
+	.desc_left h1 {font-weight: lighter; color: #4D4D4D; font-size: 57px; line-height: 61px; border-top: 1px solid #4D4D4D; border-bottom: 1px solid #4D4D4D;}
 	.desc_left p {margin-top: 15px; font-size: 14px; color: #808080;}
 
 	.desc_right {display: block; position: relative; float: right; width: 912px;}
 		.slider_wrapper img {width: 912px; height: auto;}
-	.desc_right h4 {font-weight: normal; font-size: 16px; color: #000; margin-top: 20px;}
+	.desc_right h4 {font-weight: normal; font-size: 16px; color: #000; margin-top: 9px;}
 	.desc_right p {font-size: 14px; color: #808080;}
 
 .artist_additional {display: block; position: relative; overflow: hidden; margin-bottom: 47px;}
-	.add_left {display: block; position: relative; float: left; width: 260px;}
-	.add_left h3 {font-weight: lighter; font-size: 16px; line-height: 47px; color: #4d4d4d; width: 260px; margin-top: 0; border-top: 1px solid #4d4d4d; border-bottom: 1px solid #4d4d4d;}
-	.add_left .press {margin-top: 14px;}
+	.add_left {display: block; position: relative; float: left; width: 270px;}
+	.add_left h3 {font-weight: lighter; font-size: 16px; line-height: 44px; color: #4d4d4d; width: 270px; margin-top: 0; border-top: 1px solid #4d4d4d; border-bottom: 1px solid #4d4d4d;}
+	.add_left .press {margin-top: 14px; margin-bottom: 24px;}
 	.add_left .press h5 {font-size: 16px; font-weight: normal; color: #666;}
 	.add_left .press p {font-size: 14px; color: #666;}
 	.add_left .press a {color: #000; text-decoration: none;}
 	.add_left .press a:hover {text-decoration: underline;}
 
+
 	.add_right {display: block; position: relative; float: right; width: 912px;}
-	.add_right h3 {font-weight: lighter; font-size: 16px; line-height: 47px; color: #4d4d4d; width: 912px; margin-top: 0; border-top: 1px solid #4d4d4d; border-bottom: 1px solid #4d4d4d;}
-	.add_right p {color: #808080; font-size: 14px; margin-top: 10px;}
+	.add_right h3 {font-weight: lighter; font-size: 16px; line-height: 44px; color: #4d4d4d; width: 912px; margin-top: 0; border-top: 1px solid #4d4d4d; border-bottom: 1px solid #4d4d4d;}
+	.add_right p {color: #808080; font-size: 14px; margin-top: 11px;}
 	.add_right ul {margin: 70px 0 -20px 0;}
 	.add_right li {margin-right: 4px; display: inline-block;}
 	.add_right li:last-child {margin-right: 0;}
@@ -202,7 +203,7 @@ footer {background: #4c4c4c; overflow: hidden; margin: 0 auto;}
 	.gallery h4 {font-weight: normal; font-size: 16px; color: #000; margin-top: 20px;}
 	.gallery p {font-size: 14px; color: #808080;}
 	.gallery ul {margin: 86px 0 160px 0;}
-	.gallery li {margin-right: 4px; display: inline-block;}
+	.gallery li {margin-right: 4px; display: inline-block; margin-bottom: 64px;}
 	.gallery li:last-child {margin-right: 0;}
 	.gallery li a {background: url(../media/gallery_small.png) 0 0 no-repeat; width: 96px; height: 66px; padding: 66px 96px 0 0;}
 
