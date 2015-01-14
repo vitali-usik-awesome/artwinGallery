@@ -23,8 +23,8 @@ body {background: #fff; font-family: 'Helvetica', sans-serif; font-size: 16px; h
 .sub_wrapper {width: 1200px; margin: 0 32px; overflow: hidden;}
 .footer_wrapper {width: 1262px; margin: 0 auto; background: #4c4c4c;}
 .adaptive_wrapper {width: 1200px; margin: 0 auto;}
-	.adaptive_wrapper h2 {color: #fff; font-size: 57px; font-weight: lighter; padding-top: 225px;}
-	.adaptive_wrapper h3 {color: #fff; font-size: 22px; font-weight: lighter; padding-top: 8px;}
+	.adaptive_wrapper h2 {color: #fff; font-size: 57px; line-height: 56px; font-weight: lighter; padding-top: 214px;}
+	.adaptive_wrapper h3 {color: #fff; font-size: 22px; font-weight: lighter; padding-top: 12px;}
 .adaptive_block {min-width: 1262px;}
 .adaptive_home {min-height: 410px; background: url(../img/home.png); background-size: cover; -moz-background-size: cover;  /* Firefox 3.6 */ background-position: center;  /* Internet Explorer 7/8 */}
 .adaptive_contact {margin-top: 175px; min-height: 380px; background: url(../media/map.jpeg); background-size: cover; -moz-background-size: cover;  /* Firefox 3.6 */ background-position: center;  /* Internet Explorer 7/8 */}
@@ -247,5 +247,17 @@ footer {background: #4c4c4c; overflow: hidden; margin: 0 auto;}
 			.item_desc p {color: #666; font-size: 14px; margin-top: 0;}
 	.item_wrapper span {display: block; position: absolute; bottom: -37px; width: 288px; text-align: center; font-size: 18px; color: #666; font-weight: lighter;}
 	.current {color: #000;}
+
+.exhibition_main {display: block; position: relative; width: 999999px; left: -137px; min-height: 430px; margin: 46px 0 14px 0;}
+	.item_wrapper {display: block; position: relative;}
+		.item_main {display: block; position: relative; float: left; width: 288px; margin-right: 1px;}
+			.item_main img {width: 288px; height: 206px;}
+		.item_desc {display: block; position: relative; margin-bottom: 18px;}
+			.item_desc h5 {font-weight: normal; color: #4d4d4d; font-size: 16px; margin-top: 7px; text-transform: uppercase;}
+			.item_desc h4 {font-weight: normal; line-height: 24px; margin-top: 16px; text-transform: none; margin-bottom: 1px;}
+			.item_desc h4 a {color: #666; font-size: 25px; text-decoration: none;}
+			.item_desc h4 a:hover {text-decoration: underline;}
+			.item_desc p {color: #666; font-size: 14px; margin-top: 8px;}
+
 
 
