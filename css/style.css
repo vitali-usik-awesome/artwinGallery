@@ -13,6 +13,8 @@ ul {list-style: none;}
 :-moz-placeholder           {color: #4d4d4d;}/* Firefox 18- */
 :-ms-input-placeholder      {color: #4d4d4d;}
 
+@font-face {font-family: Helvetica; src: url(../fonts/Helvetica_regular.TTF);}
+
 html {height: 100%;}
 body {background: #fff; font-family: 'Helvetica', sans-serif; font-size: 16px; height: 100%;}
 
@@ -25,7 +27,7 @@ body {background: #fff; font-family: 'Helvetica', sans-serif; font-size: 16px; h
 	.adaptive_wrapper h3 {color: #fff; font-size: 22px; font-weight: lighter; padding-top: 8px;}
 .adaptive_block {min-width: 1280px;}
 .adaptive_home {min-height: 410px; background: url(../img/home.png); background-size: cover; -moz-background-size: cover;  /* Firefox 3.6 */ background-position: center;  /* Internet Explorer 7/8 */}
-.adaptive_contact {min-height: 380px; background: url(../media/map.jpeg); background-size: cover; -moz-background-size: cover;  /* Firefox 3.6 */ background-position: center;  /* Internet Explorer 7/8 */}
+.adaptive_contact {margin-top: 175px; min-height: 380px; background: url(../media/map.jpeg); background-size: cover; -moz-background-size: cover;  /* Firefox 3.6 */ background-position: center;  /* Internet Explorer 7/8 */}
 
 /* header */
 header {width: 1280px; margin: 0 auto; background: #fff;}
@@ -38,14 +40,17 @@ header {width: 1280px; margin: 0 auto; background: #fff;}
 		nav ul li a {display: inline-block; color: #4d4d4d; text-decoration: none; padding: 0 15px; line-height: 74px; border-right: 1px solid transparent; border-left: 1px solid transparent;}
 		nav ul li a:hover {text-decoration: none; border-right: 1px solid #bebebe; border-left: 1px solid #bebebe;}
 		nav ul li .active {text-decoration: none; border-right: 1px solid #bebebe; border-left: 1px solid #bebebe;}
-	
-
-
-
-
 
 	.sub_wrapper .search {display: block; position: relative; float: right; margin-top: 41px; overflow: hidden;}
-		.search input {display: block; position: relative; background: url(../img/search.png) 2px 50% no-repeat; padding-left: 20px; height: 19px; width: 89px; border: 1px solid #bebebe;}
+		.search input {display: block; position: relative; background: url(../img/search.png) 2px 50% no-repeat; padding-left: 20px; height: 19px; width: 89px; border: 1px solid #bebebe;
+									-webkit-appearance: none;
+									box-shadow: none;
+								    -webkit-box-shadow: none;
+								    -webkit-border-radius: 0px;
+								    -moz-border-radius: 0px;
+				 				    border-radius: 0px;
+				 				    -webkit-appearance: none;
+					  }
 		.search ul {margin-top: 4px;}
 		.search li {display: inline-block; float: right; text-transform: uppercase; padding-left: 14px;}
 		.search li:hover {padding-left: 14px; background: url(../img/switch.png) 6px 50% no-repeat;}
@@ -63,7 +68,7 @@ header {width: 1280px; margin: 0 auto; background: #fff;}
 footer, .push {height: 192px; min-width: 1280px;}
 footer {background: #4c4c4c; overflow: hidden; margin: 0 auto;}
 	footer .contact {display: block; position: relative; float: left; width: 190px;}
-		footer .contact h5 {text-transform: uppercase; color: #ababab; font-weight: normal; font-size: 16px; margin: 25px 0 0 4px;}
+		footer .contact h5 {text-transform: uppercase; color: #ababab; font-weight: lighter; font-size: 16px; margin: 25px 0 0 4px;}
 		footer .contact h6 {color: #ababab; font-weight: normal; font-size: 14px; margin: 19px 0 0 4px;}
 		footer .contact p {color: #fff; margin: 23px 0 0 4px;}
 		footer .contact p:last-child {margin: 0 0 36px 4px;}
@@ -76,7 +81,7 @@ footer {background: #4c4c4c; overflow: hidden; margin: 0 auto;}
 		.social .yt {background: url(../img/social_sprite.png) -77px 0 no-repeat;}
 		.social .be {background: url(../img/social_sprite.png) -116px 0 no-repeat;}
 	footer .copyright {display: block; position: relative; float: right; margin-right: 170px;}
-		.copyright h5 {text-transform: uppercase; color: #ababab; font-weight: normal; font-size: 16px; margin-top: 138px;}
+		.copyright h5 {text-transform: uppercase; color: #ababab; font-weight: lighter; font-size: 16px; margin-top: 138px;}
 
 /* artists_wrapper */
 .artists_nav {width: 100%; height: 51px; border-top: 1px solid #bebebe; border-bottom: 1px solid #bebebe;}
@@ -140,27 +145,28 @@ footer {background: #4c4c4c; overflow: hidden; margin: 0 auto;}
 	.exh_left {display: block; position: relative; float: left; width: 415px;}
 		.exh_left .line {border-top: 1px solid #666; width: 390px;}
 		.exh_left p {font-size: 14px; line-height: 17px; color: #808080;}
-		.exh_left ul {margin: 48px 0;}
+		.exh_left ul {margin: 32px 0 42px 0;}
 		.exh_left li {font-size: 16px; color: #666;}
 		.exh_left h4 {font-weight: lighter; font-size: 16px; text-transform: uppercase; color: #808080; margin-top: 14px;}
+		.exh_left h3 {line-height: 22px;}
 		.exh_left a {font-weight: lighter; font-size: 16px; text-transform: uppercase; color: #000; text-decoration: none;}
 		.exh_left a:hover {text-decoration: underline;}
 
-	.exh_right {display: block; position: relative; float: right; width: 730px; margin-bottom: 60px;}
+	.exh_right {display: block; position: relative; float: right; width: 730px; margin-bottom: 314px;}
 		.exh_right img {margin-bottom: 16px;}
 
 	.contact_left {display: block; position: relative; float: left; width: 300px; padding-bottom: 80px;}
-		.contact_left h3 {font-weight: normal; font-size: 14px; color: #808080; margin-top: 38px; text-transform: none;}
+		.contact_left h3 {font-weight: normal; font-size: 14px; color: #808080; margin-top: 34px; text-transform: none;}
 		.contact_left h4 {font-weight: normal; font-size: 22px; color: #333; margin: 47px 0 36px 0;}
 		.contact_left p {font-size: 14px; color: #808080;}
 		.contact_left h5 {margin-top: 18px;}
 		.contact_left h5 a {text-decoration: none; font-weight: normal; color: #808080; cursor: pointer;}
 		.contact_left h5 a:hover {text-decoration: underline;}
 
-	.contact_right {display: block; position: relative; float: right; width: 343px; padding-bottom: 80px;}
-		.contact_right h4 {font-weight: normal; font-size: 22px; color: #333; margin: 10px 0 18px 0; text-transform: uppercase;}
+	.contact_right {display: block; position: relative; float: right; width: 343px; padding-bottom: 80px; margin-right: 16px;}
+		.contact_right h4 {font-weight: normal; font-size: 22px; color: #333; margin: 3px 0 21px 0; text-transform: uppercase;}
 		.contact_right span {display: block; position: relative; margin-bottom: 8px; color: #4d4d4d;}
-		.contact_right span input {height: 17px; width: 245px; line-height: 17px; font-size: 14px; padding-left: 3px; border: 1px solid #4d4d4d;
+		.contact_right span input {height: 19px; width: 245px; line-height: 19px; font-size: 16px; color: #4d4d4d; padding-left: 3px; border: 1px solid #bebebe;
 									 -webkit-appearance: none;
 									   box-shadow: none;
 									   -webkit-box-shadow: none;
@@ -169,7 +175,7 @@ footer {background: #4c4c4c; overflow: hidden; margin: 0 auto;}
 									   border-radius: 0px;
 									   -webkit-appearance: none;
 									}
-		.contact_right textarea {line-height: 17px; font-size: 14px; padding-left: 3px; width: 247px; resize: none; font-family: 'Helvetica', sans-serif; border: 1px solid #4d4d4d; overflow: auto;
+		.contact_right textarea {line-height: 19px; font-size: 16px; padding-left: 3px; width: 247px; color: #4d4d4d; resize: none; font-family: 'Helvetica', sans-serif; border: 1px solid #bebebe; overflow: auto;
 									 -webkit-appearance: none;
 									   box-shadow: none;
 									   -webkit-box-shadow: none;
@@ -178,7 +184,7 @@ footer {background: #4c4c4c; overflow: hidden; margin: 0 auto;}
 									   border-radius: 0px;
 									   -webkit-appearance: none;}
 		.contact_right p {margin-top: -6px;}
-		.contact_right p input {height: 18px; width: 252px; color: #fff; background: #808080; font-size: 16px; line-height: 16px; border: 1px solid #929292; border-top: 0 none; cursor: pointer;
+		.contact_right p input {height: 18px; width: 252px; color: #fff; background: #4c4c4c; font-size: 16px; font-weight: lighter; line-height: 16px; border: 1px solid #bebebe; border-top: 0 none; cursor: pointer;
 										 -webkit-appearance: none;
 									   box-shadow: none;
 									   -webkit-box-shadow: none;
@@ -219,7 +225,7 @@ footer {background: #4c4c4c; overflow: hidden; margin: 0 auto;}
 	.exhibition_wrapper h4 {font-weight: lighter; font-size: 16px; color: #4d4d4d; text-transform: uppercase; margin-bottom: 7px;}
 	.exhibition_wrapper .timeline {margin-bottom: -36px; line-height: 40px; color: #000;}
 .exhibition {display: block; position: relative; width: 999999px; left: -242px; min-height: 430px;}
-	.period {display: block; position: relative; float: left; border: 1px solid #666; height: 334px;}
+	.period {display: block; position: relative; float: left; border: 1px solid #666;}
 		.period h6 {font-weight: lighter; font-size: 16px; color: #666; text-transform: uppercase;}
 			.left {text-align: right; margin: 5px 17px 0 0;}
 			.center {text-align: center; margin: 5px 17px 0 0;}
@@ -239,5 +245,6 @@ footer {background: #4c4c4c; overflow: hidden; margin: 0 auto;}
 			.item_desc h4 a {color: #666; font-size: 25px;}
 			.item_desc p {color: #666; font-size: 14px; margin-top: 0;}
 	.item_wrapper span {display: block; position: absolute; bottom: -37px; width: 288px; text-align: center; font-size: 18px; color: #666; font-weight: lighter;}
+	.current {color: #000;}
 
 
